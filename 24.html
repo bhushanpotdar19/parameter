@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js functions</title>
+</head>
+
+<body>
+    <script>
+
+        //Argument and return 
+        function areaOfCircle(radius) {
+            const area = 3.14 * radius * radius;
+            return area
+        }
+        const result = areaOfCircle(5);
+        document.write(`area is: ${result} m.sq </br>`);
+    
+   
+    
+
+        // Argument but no Return
+        function Area(radius) {
+            const area = 3.14 * radius * radius;
+            document.write(`area is: ${area} m.sq</br>`)
+        }
+        Area(4)
+
+    
+    
+
+        // No Argument but Return
+        const radius = 13;
+        function aOfCircle() {
+            const area = 3.14 * radius * radius;
+            return area
+        }
+        const r = aOfCircle();
+        document.write(`area is: ${r} m.sq</br>`)
+
+
+
+        // no Argument and no Return
+        const radiuses = 40;
+        function areaCircle() {
+            const area = 3.14 * radiuses * radiuses;
+            document.write(`area is: ${area} m.sq`)
+        }
+        areaCircle()
+    </script>
+</body>
+
+</html>
